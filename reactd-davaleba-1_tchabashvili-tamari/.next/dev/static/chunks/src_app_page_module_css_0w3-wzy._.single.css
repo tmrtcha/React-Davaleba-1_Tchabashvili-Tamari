@@ -1,0 +1,32 @@
+/* [project]/src/app/page.module.css [app-client] (css) */
+.page-module___8aEwW__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.page-module___8aEwW__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-module___8aEwW__grid {
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  display: grid;
+}
+
+.page-module___8aEwW__center {
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.page-module___8aEwW__error {
+  color: #dc2626;
+}
+
+/*# sourceMappingURL=src_app_page_module_css_0w3-wzy._.single.css.map*/

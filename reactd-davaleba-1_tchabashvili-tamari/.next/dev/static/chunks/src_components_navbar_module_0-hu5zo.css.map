@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/user/Desktop/React-Davaleba-2_Tchabashvili-Tamari/reactd-davaleba-1_tchabashvili-tamari/src/components/navbar.module.css"],"sourcesContent":[".navbar {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n\r\n  padding: 16px 40px;\r\n  background-color: #0f172a;\r\n  color: white;\r\n}\r\n\r\n.logo {\r\n  font-size: 20px;\r\n  font-weight: 600;\r\n}\r\n\r\n.navList {\r\n  display: flex;\r\n  gap: 20px;\r\n  list-style: none;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n.navItem {\r\n  font-size: 16px;\r\n}\r\n\r\n.navLink {\r\n  text-decoration: none;\r\n  color: #e2e8f0;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;AAUA;;;;;AAKA;;;;;;;;AAQA;;;;AAIA"}}]
+}
