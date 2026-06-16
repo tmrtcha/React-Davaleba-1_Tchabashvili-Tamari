@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# პროდუქტების მაღაზია (Next.js დავალება)
 
-## Getting Started
+ეს არის მარტივი Next.js აპლიკაცია, რომელიც ფეჩავს პროდუქტების მონაცემებს Fake Store API-დან და გამოსახავს მათ დინამიურად. პროექტი აგებულია კომპონენტების სწორი დაყოფის პრინციპით და სტილებისთვის იყენებს CSS Modules-ს.
 
-First, run the development server:
+## ფუნქციონალი
+
+- მონაცემების დინამიური წამოღება (Fetch) `https://fakestoreapi.com/products` ენდფოინთიდან.
+- `useState` და `useEffect` ჰუკების გამოყენება რეაქტიული სთეითის მართვისთვის.
+- ჩატვირთვის (Loading) და შეცდომის (Error) სთეითების დამუშავება.
+- პროდუქტების სიის გენერირება `map` მეთოდით და ცალკეული `ProductItem` კომპონენტის გამოყენებით.
+- რესპონსიული დიზაინი (CSS Grid-ის ბაზაზე), რომელიც ერგება სხვადასხვა ზომის ეკრანებს.
+
+## პროექტის სტრუქტურა
+
+- `src/components/ProductItem.js` - ცალკეული პროდუქტის ბარათის კომპონენტი.
+- `src/components/ProductItem.module.css` - პროდუქტის ბარათის ლოკალური სტილები.
+- `src/app/page.js` - მთავარი გვერდი, სადაც ხდება API რექვესთი და პროდუქტების სია ირენდერება.
+- `src/app/page.module.css` - მთავარი გვერდის და პროდუქტების ბადის (Grid) სტილები.
+
+## როგორ გავუშვათ პროექტი ლოკალურად
+
+1. ჩამოტვირთეთ რეპოზიტორია და გადადით პროექტის საქაღალდეში:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
